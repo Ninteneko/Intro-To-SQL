@@ -1,3 +1,4 @@
+/* Create Tables */
 CREATE TABLE EmployeeDemographics(
 EmployeeID int,
 FirstName varchar(50),
@@ -45,7 +46,7 @@ Select Statement
 */
 
 SELECT *
-From EmployeeDemographics
+FROM EmployeeDemographics
 
 SELECT FirstName
 FROM EmployeeDemographics
@@ -53,6 +54,9 @@ FROM EmployeeDemographics
 SELECT TOP (5) *
 FROM EmployeeDemographics
 
+/* 
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+*/
 SELECT DISTINCT(EmployeeID)
 FROM EmployeeDemographics
 
